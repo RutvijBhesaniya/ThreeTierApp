@@ -5,7 +5,7 @@ pipeline {
         stage('Clone Repository from Git') {
             steps {
                 // Clone the entire Git repository
-                git 'https://github.com/RutvijBhesaniya/ThreeTierApp.git'
+                git 'https://github.com/RutvijBhesaniya/ThreeTierApp.git', branch: "main"
             }
         }
         
